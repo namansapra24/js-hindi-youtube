@@ -22,3 +22,12 @@ const heros = ["Ironman", "Hulk", "Spiderman"] // Array in square brackets
 {Name : "Naman"
     Age : 24    // Curly brackets is always objects
 }
+
+const myfunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof bigNumber);
+console.log(typeof outsideTemp);
+console.log(typeof scoreVal);
+console.log(typeof myfunction);
