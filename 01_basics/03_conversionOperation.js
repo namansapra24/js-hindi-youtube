@@ -1,4 +1,4 @@
-let score = "45"
+/*let score = "45"
 
 console.log(typeof score);
 console.log(typeof (score));
@@ -41,4 +41,34 @@ console.log(booleanisLoggedIn1);
 let someNumber = 45
 let stringNumber = String(someNumber)
 console.log(stringNumber);
-console.log(typeof stringNumber); // even thoug output looks like a number, it is converted into string
+console.log(typeof stringNumber); // even thoug output looks like a number, it is converted into string*/
+
+
+//*******************Operations ********************
+
+/*console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**4);
+console.log(2/2);
+console.log(2%2);
+
+let str1 = 1
+let str2 = 2
+let str3 = str1 + str2
+console.log(str3)
+
+console.log('1' + 2); //output 12
+console.log(1 + '2'); // op 12
+console.log('1' + 2 + 2); //op 122
+console.log(1 + 2 + '2'); // op 32 as due to rules of js 
+
+console.log(true)
+console.log(+true);
+console.log("");*/
+
+let gameCounter = 100
+gameCounter++ //postfix
+console.log(gameCounter);
+++gameCounter //prefix
+console.log(gameCounter);
