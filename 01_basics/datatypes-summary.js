@@ -31,3 +31,32 @@ console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof scoreVal);
 console.log(typeof myfunction);
+
+
+
+//*******************Memory types********************
+
+// Stack memory (Primitive), Heap Memory (Reference or Non primitive)
+
+let name1 = "Naman"
+let name2 = name1
+name2 = "Sapra"
+
+console.log(name1);
+console.log(name2);
+
+let user1 = {
+    email: "na@google.com",
+    city: "delhi"
+}
+
+let user2 = user1
+
+//let user2.email = "na@na.com"    // unexpected error
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+//  Stack always gives copy of data and heap gives reference of the original data
+  
