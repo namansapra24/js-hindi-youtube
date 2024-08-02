@@ -5,6 +5,7 @@ const balance = new Number(100)
 console.log(balance);
 
 console.log(balance.toString().length);  //converted to string then shows the length
+console.log(balance.toString());
 console.log(balance.toFixed(4));
 
 const otherNumber = 123.9

@@ -1,6 +1,6 @@
-/*let score = "45"
+let score = "45"
 
-console.log(typeof score);
+console.log("The type is", typeof score);
 console.log(typeof (score));
 
 let valueInNumber = Number(score)
@@ -41,7 +41,7 @@ console.log(booleanisLoggedIn1);
 let someNumber = 45
 let stringNumber = String(someNumber)
 console.log(stringNumber);
-console.log(typeof stringNumber); // even thoug output looks like a number, it is converted into string*/
+console.log(typeof stringNumber); // even thoug output looks like a number, it is converted into string
 
 
 //*******************Operations ********************

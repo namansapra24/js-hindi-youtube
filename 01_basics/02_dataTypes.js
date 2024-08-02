@@ -20,6 +20,6 @@ let isLoggedIn = false
 
 //object
 
-console.log(typeof "Naman");
+console.log("The type of value \"Naman\" is",typeof "Naman");
 console.log(typeof null); //object
 console.log(typeof undefined); // undefined
