@@ -42,4 +42,39 @@ function loginMessage(username){
 loginMessage("Naman")
 
 
+function calculateCartPrice(...num1){
+    return num1
+}
+console.log(calculateCartPrice(18, 27, 36, 45))
+
+
+const user = {
+    username: "Naman",
+    email: "na@na.com"
+}
+
+function handleObject(anyObject){
+console.log(`The username is ${anyObject.username} and email is ${anyObject.email}`);
+
+}
+
+// handleObject(user)
+
+handleObject({                 // can also pass objects directly
+    username: "Rahul",
+    email:"na@123.com"
+})
+
+
+const newArray = [100, 200, 300, 400]
+
+function returnSecondValue(anArray){
+    return anArray[1]
+}
+
+//console.log(returnSecondValue(newArray))
+
+console.log(returnSecondValue([18, 74, 85, 55]));  // cqn also pass array directly
+
+
 
