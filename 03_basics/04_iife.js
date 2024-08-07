@@ -1,4 +1,5 @@
 (function one() {
+    //named IIFE
     console.log(`DB CONNECTED`);
 
 })();
