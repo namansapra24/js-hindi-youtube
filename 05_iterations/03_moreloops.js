@@ -48,7 +48,12 @@ const myObject1 = {
 
 for (const key in myObject1) {
         console.log(`${key} is short for ${myObject1[key]}`);
-            
+}
+
+
+const programming = ["java", "py", "cpp", "rb"]
+for (const key in programming) {
+        console.log(programming[key]);
 }
 
 
